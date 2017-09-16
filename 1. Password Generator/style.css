@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -60%);
+	transform: translate(-50%, -60%);
+}
+
+.container .row {
+	height: 250px;
+}
+
+.container .row .col-sm-12 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.container .row .col-sm-12 h1 {
+	font-size: 80px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.container .row .col-sm-12 button {
+	cursor: pointer;
+	width: 450px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 48px;
+	border-radius: 10px;
+	border: none;
+	-webkit-transition: 0.3s linear;
+	transition: 0.3s linear;
+	background: -webkit-gradient(linear, left top, right top, from(#159957), to(#155799));
+	background: linear-gradient(to right, #159957 0%, #155799 100%);
+}
+
+.container .row .col-sm-12 button:hover {
+	-webkit-box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.6);
+}
