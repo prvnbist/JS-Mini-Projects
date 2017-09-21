@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+* {
+	box-sizing: border-box;
+	font-family: "Oswald", sans-serif;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.wrapper {
+	font-family: "Oswald", sans-serif;
+	width: 100vw;
+	height: 100vh;
+	margin: auto;
+	text-align: center;
+}
+
+.wrapper .left,
+.wrapper .right {
+	width: 50vw;
+	height: 100vh;
+	float: left;
+	position: relative;
+}
+
+.wrapper .left .center,
+.wrapper .right .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 580px;
+}
+
+.wrapper .left .center h1,
+.wrapper .right .center h1 {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 0 0 80px 0;
+}
+
+.wrapper .left .center h2,
+.wrapper .left .center button,
+.wrapper .left .center input,
+.wrapper .right .center h2,
+.wrapper .right .center button,
+.wrapper .right .center input {
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: 600;
+	float: left;
+	width: 280px;
+	height: 80px;
+}
+
+.wrapper .left .center h2,
+.wrapper .right .center h2 {
+	line-height: 80px;
+	background: #F2F2F2;
+	margin-right: 20px;
+	border: 1px solid #bfbfbf;
+}
+
+.wrapper .left .center button,
+.wrapper .right .center button {
+	cursor: pointer;
+	background: linear-gradient(to right, #159957 0%, #155799 100%);
+	border: none;
+	font-weight: 500;
+	transition: 0.3s linear;
+	color: #fff;
+}
+
+.wrapper .left .center button:focus,
+.wrapper .right .center button:focus {
+	outline: 0;
+}
+
+.wrapper .left .center button:hover,
+.wrapper .right .center button:hover {
+	box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.6);
+}
+
+.wrapper .left .center input,
+.wrapper .right .center input {
+	border: none;
+	background: #F2F2F2;
+	margin-right: 20px;
+	text-align: center;
+	border: 1px solid #bfbfbf;
+}
+
+.wrapper .left .center input:focus,
+.wrapper .right .center input:focus {
+	outline: 0;
+}
+
+@media screen and (max-width: 980px) {
+	.wrapper .left,
+	.wrapper .right {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.wrapper .left .center,
+	.wrapper .right .center {
+		position: static;
+		width: 100%;
+		transform: none;
+	}
+	.wrapper .left .center h1,
+	.wrapper .right .center h1 {
+		padding: 50px 0;
+	}
+	.wrapper .left .center h2,
+	.wrapper .left .center button,
+	.wrapper .left .center input,
+	.wrapper .right .center h2,
+	.wrapper .right .center button,
+	.wrapper .right .center input {
+		clear: both;
+		margin-bottom: 20px;
+		margin-left: 50%;
+		-webkit-transform: translateX(-50%);
+	}
+}
