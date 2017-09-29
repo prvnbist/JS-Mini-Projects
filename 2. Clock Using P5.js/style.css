@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+ul li {
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #283c86;
+}
+ul li:nth-child(1) {
+  position: absolute;
+  top: 6%;
+  left: 73%;
+}
+ul li:nth-child(2) {
+  position: absolute;
+  top: 25%;
+  right: 8%;
+}
+ul li:nth-child(3) {
+  position: absolute;
+  top: 47%;
+  right: 2%;
+}
+ul li:nth-child(4) {
+  position: absolute;
+  top: 72%;
+  right: 10%;
+}
+ul li:nth-child(5) {
+  position: absolute;
+  left: 73%;
+  bottom: 6%;
+}
+ul li:nth-child(6) {
+  position: absolute;
+  left: 48%;
+  bottom: 2%;
+}
+ul li:nth-child(7) {
+  position: absolute;
+  left: 25%;
+  bottom: 8%;
+}
+ul li:nth-child(8) {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+}
+ul li:nth-child(9) {
+  position: absolute;
+  top: 47%;
+  left: 2%;
+}
+ul li:nth-child(10) {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}
+ul li:nth-child(11) {
+  position: absolute;
+  top: 6%;
+  left: 23%;
+}
+ul li:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 48%;
+}
