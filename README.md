@@ -12,5 +12,8 @@ This repository holds my JS made mini projects.
 
 3. Particle System Using P5.js
 - I've used Object Oriented Js mixed with P5.js library. Each particle is an object itself and in collectively is generated randomly at random location with random colors. The strokes only appear if two particle are 75 units aparts in distance.
-- https://codepen.io/prvnbist/pen/QvoVPw
+- Codepen - https://codepen.io/prvnbist/pen/QvoVPw
 
+4. Factorial Generator 
+- It was so basic that it needs no explanation.
+- Codepen -https://codepen.io/prvnbist/full/MEQRJj
