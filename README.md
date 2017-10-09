@@ -17,3 +17,7 @@ This repository holds my JS made mini projects.
 4. Factorial Generator 
 - It was so basic that it needs no explanation.
 - Codepen -https://codepen.io/prvnbist/full/MEQRJj
+
+5. Fibonacci Sequence Generator
+- It essentially takes a number from the user upto which the fibonacci sequence should run and it evaluates the values.
+- Codepen - https://codepen.io/prvnbist/full/YraGjR

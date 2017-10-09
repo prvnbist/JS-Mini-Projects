@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+input,
+button,
+ul {
+	width: 100%;
+	height: 64px;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+}
+
+ul {
+	background: #E7E7E7;
+	color: #4e4e4e;
+	line-height: 64px;
+	margin-bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+ul li {
+	float: left;
+}
+
+.btn:focus,
+.btn-success {
+	border: none;
+	box-shadow: none;
+	font-size: 18px;
+}
+
+input {
+	border: none;
+	border-bottom: 3px solid #28a745;
+	border-radius: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+.row {
+	width: 567px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.row .column {
+	margin: 10px 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 567px) {
+	.container {
+		width: 100vw;
+		padding: 0;
+	}
+	.container .row {
+		width: 70%;
+	}
+	.container .row .column {
+		width: 100vw;
+	}
+}
