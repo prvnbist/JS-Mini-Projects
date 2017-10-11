@@ -21,3 +21,7 @@ This repository holds my JS made mini projects.
 5. Fibonacci Sequence Generator
 - It essentially takes a number from the user upto which the fibonacci sequence should run and it evaluates the values.
 - Codepen - https://codepen.io/prvnbist/full/YraGjR
+
+6. Linear Array Sorting
+- Setting the first element of the array aas max and then comparing it with rest of elements, and repeating the same process till the array has an order.
+- Codepen - https://codepen.io/prvnbist/pen/LzrRGR
