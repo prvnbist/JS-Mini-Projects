@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500");
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.wrap {
+	width: 400px;
+}
+
+.input {
+	width: 100%;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.input input,
+.input button {
+	width: 48%;
+	height: 60px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+
+.input input {
+	text-align: center;
+	border: none;
+	border-bottom: 3px solid red;
+	border-radius: 0;
+}
+
+.input input:focus {
+	outline: none;
+}
+
+.input button {
+	margin-left: 4%;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+	border-radius: 3px;
+	background: red;
+}
+
+.input button:focus,
+.input button:active {
+	border: none;
+	box-shadow: none;
+}
+
+.row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.row .data {
+	width: 100%;
+	height: 60px;
+	background: #EFEFEF;
+	line-height: 60px;
+	text-align: center;
+	border-right: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	border-radius: 3px;
+	font-family: 'Oswald', sans-serif;
+	-webkit-animation: slideUp 1s ease-in-out forwards;
+	animation: slideUp 1s ease-in-out forwards;
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(40px);
+		transform: translateY(40px);
+	}
+}
+
+@keyframes slideUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(40px);
+		transform: translateY(40px);
+	}
+}

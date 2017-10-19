@@ -25,3 +25,7 @@ This repository holds my JS made mini projects.
 6. Linear Array Sorting
 - Setting the first element of the array aas max and then comparing it with rest of elements, and repeating the same process till the array has an order.
 - Codepen - https://codepen.io/prvnbist/pen/LzrRGR
+
+7. Pascal Triangle Visualized
+- Pascal's triangle is a triangular array of the binomial coefficients and at the same it will be shown that the sum of the entries in the n-th diagonal of Pascal's triangle is equal to the n-th Fibonacci number for all positive integers n.
+- Codepen - https://codepen.io/prvnbist/full/oGPWze
