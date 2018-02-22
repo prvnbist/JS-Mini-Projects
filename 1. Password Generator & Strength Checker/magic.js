@@ -1,6 +1,6 @@
 function generatePassword() {
     var length = 8,
-        charPool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()[]{}<>?/\~",
+        charPool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$&*",
         pass = "";
     for (var i = 0, n = charPool.length; i < length; ++i) {
         pass += charPool.charAt(Math.floor(Math.random() * n));

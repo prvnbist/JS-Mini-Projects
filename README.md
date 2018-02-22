@@ -33,3 +33,7 @@ This repository holds my JS made mini projects.
 8. Just Another Todo App
 - The app let's the user add tasks, edit tasks and delete tasks.
 - Codepen - https://codepen.io/prvnbist/pen/MEPmyd
+
+9. Prime Generator
+- A prime number is a natural number that is divisible by 1 and itself. This demo let's you input a number and it will either generate prime numbers upto that number or tells you if it's a prime or not.
+- Codepen - https://codepen.io/prvnbist/full/OQZRrL 
