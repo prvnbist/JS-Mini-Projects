@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matrix Multiplication</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <span>*[m x n] - [n x p]*</span>
+    <span id="alert"></span>
+    <div id="inputWrapper">
+      <div>
+        <input type="text" placeholder="Row x Column" id="matrix-one-size" />
+        <input type="text" placeholder="Enter elements of first array" id="matrix-one" />
+      </div>
+      <div>
+        <input type="text" placeholder="Row x Column" id="matrix-two-size" />
+        <input type="text" placeholder="Enter elements of second array" id="matrix-two" />
+      </div>
+    </div>
+    <div id="execute">
+      <button>Multiply Matrix</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div id="displayArray">
+      <ul id="oneArray"></ul>
+      <ul id="twoArray"></ul>
+    </div>
+    <div id="outputWrapper">
+      <ul id="resultArray"></ul>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="magic.js"></script>
+</body>
+</html>

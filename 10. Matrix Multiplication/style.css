@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-top: 80px;
+  width: 520px;
+  height: auto;
+}
+
+span {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #a770ef;
+}
+
+span#alert {
+  color: red;
+}
+
+#inputWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+#inputWrapper input {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  padding-left: 10px;
+  -o-border-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  border-image: -webkit-gradient(linear, left top, right top, from(#a770ef), color-stop(#cf8bf3), to(#fdb99b));
+  border-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  border-image-slice: 1;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#inputWrapper input:focus {
+  outline: none;
+}
+
+#execute {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 10px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#a770ef), color-stop(#cf8bf3), to(#fdb99b));
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#displayArray {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  height: auto;
+}
+
+ul {
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-gap: 10px;
+  position: relative;
+  height: auto;
+}
+
+ul:before {
+  content: 'Matrix One';
+  width: 86px;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a770ef;
+}
+
+ul:last-child:before {
+  content: 'Matrix Two';
+}
+
+ul#resultArray:before {
+  content: 'Resultant Matrix';
+  width: 124px;
+}
+
+ul li {
+  background: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a770ef;
+  -webkit-animation: slideIn 0.4s ease-in-out;
+  animation: slideIn 0.4s ease-in-out;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#outputWrapper {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    width: 90%;
+  }
+}
