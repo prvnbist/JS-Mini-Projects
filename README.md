@@ -29,5 +29,8 @@ This repository holds my JS made mini projects.
 9. Prime Generator | <a href="https://codepen.io/prvnbist/full/OQZRrL">Codepen</a> 
 - A prime number is a natural number that is divisible by 1 and itself. This demo let's you input a number and it will either generate prime numbers upto that number or tells you if it's a prime or not.
 
-10. Matrix Multiplication <a href="https://codepen.io/prvnbist/full/gvKLvp">Codepen</a>
+10. Matrix Multiplication | <a href="https://codepen.io/prvnbist/full/gvKLvp">Codepen</a>
 - The user has to first input size for both matrices and then the elements of each matrix can be entered which is validated against the multiple of the size given for each matrix respectively. Then simple using three nested loops it performs matrix multiplication and stores the resultant matrix.
+
+11. Fractional Knapsack using Greedy Approach | <a href="https://codepen.io/prvnbist/pen/PeaVEX">Codepen</a>
+- Fractional Knapsack Problem says that, Given a knapsack of capacity W, we have a set of items with weight w(i) and profit(i), we have to maximize the profit without exceeding the knapsack capacity and we can also take the fraction of an item.
